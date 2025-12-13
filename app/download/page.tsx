@@ -1,4 +1,4 @@
-const APK_URL = "https://github.com/obinnakaka/sportslink-web/releases/download/v1.0.1/application-6732d6d9-3ae1-4512-8af9-279897b723a2.apk";
+const APK_URL = "https://github.com/obinnakaka/sportslink-web/releases/download/v1.0.1/SportsLink-v1.0.1.apk";
 const IOS_STATUS = "iOS version coming soon.";
 
 export default function DownloadPage() {
