@@ -17,14 +17,13 @@ export default function DownloadPage() {
       }}
     >
       <h1 style={{ fontSize: 38, fontWeight: 900, margin: 0 }}>
-        Get SportsLink
+        Download PlayrLink
       </h1>
 
       <p style={{ color: "#9ca3af", marginTop: 10, maxWidth: 820, lineHeight: 1.6 }}>
-        Download the official SportsLink Android app below. iOS version coming soon.
+        Get the official PlayrLink Android app. iOS version coming soon.
       </p>
 
-      {/* Buttons */}
       <div style={{ marginTop: 22, display: "flex", gap: 12, flexWrap: "wrap" }}>
         <a
           href={APK_URL}
@@ -71,7 +70,6 @@ export default function DownloadPage() {
         </Link>
       </div>
 
-      {/* Info box */}
       <div
         style={{
           marginTop: 24,

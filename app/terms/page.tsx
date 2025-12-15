@@ -8,14 +8,14 @@ export default function TermsPage() {
       </h1>
 
       <p className="p">
-        By using SportsLink, you agree to these Terms. If you do not agree, do not use the app.
+        By using PlayrLink, you agree to these Terms. If you do not agree, do not use the app.
       </p>
 
       <hr className="hr" />
 
       <h2 style={{ margin: "0 0 8px" }}>1. Use of the Service</h2>
       <p className="small">
-        SportsLink provides profile, discovery, and messaging features for sports networking. You
+        PlayrLink provides profile, discovery, and messaging features for sports networking. You
         agree to use the service lawfully and responsibly.
       </p>
 
@@ -38,7 +38,7 @@ export default function TermsPage() {
 
       <h2 style={{ margin: "16px 0 8px" }}>5. Disclaimer</h2>
       <p className="small">
-        The service is provided “as is” without warranties. SportsLink is not responsible for
+        The service is provided “as is” without warranties. PlayrLink is not responsible for
         agreements made between users outside the platform.
       </p>
 

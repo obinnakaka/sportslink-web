@@ -23,17 +23,24 @@ export default function HomePage() {
             marginBottom: 40,
           }}
         >
-          <div style={{ fontWeight: 900, fontSize: 22 }}>SportsLink</div>
-          <Link href="/download" style={{ color: "#cbd5e1", textDecoration: "none" }}>
+          <div style={{ fontWeight: 900, fontSize: 22 }}>PlayrLink</div>
+          <Link
+            href="/download"
+            style={{ color: "#cbd5e1", textDecoration: "none" }}
+          >
             Download
           </Link>
         </div>
 
         <h1 style={{ fontSize: 72, fontWeight: 950, margin: 0, letterSpacing: -1 }}>
-          SportsLink
+          PlayrLink
         </h1>
 
-        <p style={{ color: "#94a3b8", marginTop: 14, fontSize: 22, lineHeight: 1.6 }}>
+        <p style={{ color: "#94a3b8", marginTop: 10, fontSize: 20, fontWeight: 800 }}>
+          Athlete Network
+        </p>
+
+        <p style={{ color: "#94a3b8", marginTop: 14, fontSize: 20, lineHeight: 1.6 }}>
           Connecting players, coaches, scouts, and clubs worldwide.
         </p>
 
@@ -64,6 +71,34 @@ export default function HomePage() {
             }}
           >
             iOS (Coming Soon)
+          </Link>
+
+          <Link
+            href="/privacy"
+            style={{
+              padding: "14px 20px",
+              borderRadius: 999,
+              border: "1px solid #334155",
+              color: "white",
+              fontWeight: 800,
+              textDecoration: "none",
+            }}
+          >
+            Privacy
+          </Link>
+
+          <Link
+            href="/terms"
+            style={{
+              padding: "14px 20px",
+              borderRadius: 999,
+              border: "1px solid #334155",
+              color: "white",
+              fontWeight: 800,
+              textDecoration: "none",
+            }}
+          >
+            Terms
           </Link>
         </div>
       </div>

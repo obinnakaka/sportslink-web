@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       </h1>
 
       <p className="p">
-        SportsLink is committed to protecting your privacy.
+        PlayrLink is committed to protecting your privacy.
       </p>
 
       <p className="p">
@@ -32,7 +32,7 @@ export default function PrivacyPage() {
 
       <p className="small">
         This policy explains how we collect, use, and protect your data when you
-        use the SportsLink app and website.
+        use the PlayrLink app and website.
       </p>
     </div>
   );
